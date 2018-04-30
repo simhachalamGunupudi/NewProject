@@ -1,0 +1,103 @@
+<nav style="text-align:center">
+
+
+  <header>
+    <div class="navbar">
+      <div class="navbelt">
+        <div class="nav-left">
+          <div id="nav-logo">
+            <a href="/ref=nav_logo" class="nav-logo-link" tabindex="2">
+              <span class="nav-logo-base nav-sprite">Amazon</span>
+              <span class="nav-logo-ext nav-sprite"></span>
+              <span class="nav-logo-locale nav-sprite"></span>
+            </a>
+            <a href="/gp/prime/ref=nav_logo_prime_join" aria-label="" tabindex="3"
+               class="nav-logo-tagline nav-sprite">
+              Try Prime
+            </a>
+          </div>
+        </div>
+        <div class="nav-center">
+          <form>
+            <div class="nav-left">
+              <div class="nav-search-title">
+                <div class="nav-search-facade">
+                  <span class="nav-search-label">  Electronics</span>
+                  <i class="nav-icon"></i>
+                </div>
+              </div>
+            </div>
+            <div class="nav-center">
+              <div class="nav-search-field">
+                <input type="text" id="twotabsearchtextbox" value="" name="field-keywords" autocomplete="off"
+                       placeholder="" class="nav-input" dir="auto" tabindex="6">
+              </div>
+            </div>
+            <div class="nav-right">
+              <div class="nav-search-submit">
+                <span id="nav-search-submit-text" class="nav-search-submit-text"></span>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="nav-right">
+          <div id="nav-swmslot">
+            <div id="navSwmHoliday"
+                 style="background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2018/SWM/1109397_Tigerzindahai_swms_400x39._CB498667386_.jpg);width: 400px;height: 41px;overflow: hidden;position: relative;">
+              <img alt="Tiger Zinda Hai"
+                   src="https://images-eu.ssl-images-amazon.com/images/G/31/x-locale/common/transparent-pixel._CB386942716_.gif"
+                   border="0" width="200px" height="39px"></div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-main">
+        <div class="nav-left">
+          <a></a>
+        </div>
+        <div class="nav-center">
+          <div class="nav-xshop-container">
+          </div>
+        </div>
+        <div class="nav-right">
+          <div class="nav-tools">
+            <a>
+              <span class="nav-line1">Hello.Sign in</span>
+              <span class="nav-line2">Your Orders</span>
+            </a>
+            <a>
+              <span class="nav-line1">Try</span>
+              <span class="nav-line2">Prime <span class="nav-arrow"></span></span>
+            </a>
+            <a>
+              <span class="nav-line1"></span>
+              <span class="nav-line2">Cart</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</nav>
+
+<div>
+  <ul>
+    <li id=" burger-hover
+            " [@burgerHide]="showMenu" (mouseenter)="onBurgerMouseOver(true)"
+        (mouseleave)="onBurgerMouseOver(false)">
+      <button class="burger" (click)="openMenu()">
+        &lt;!&ndash;Hamburger&ndash;&gt;
+        <div class="bug_div" [@colorAnimation]="colorAnimation">
+          <div id="rec-2" [@burgerTwitchAnimation2]="twitchBurger"></div>
+          <div id="rec-3"></div>
+          <div id="rec-1" [@burgerTwitchAnimation1]="twitchBurger"></div>
+        </div>
+        <span class="desktop" [@colorAnimation]="colorAnimation">MENU</span>
+      </button>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
